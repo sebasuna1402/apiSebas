@@ -1,0 +1,60 @@
+[26-Aug-2023 02:48:36 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\apiSebas\models\connection.php on line 134 and at least 3 expected in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php:193
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\models\connection.php(134): Firebase\JWT\JWT::encode(Array, 'jshadkasbdjdasd...')
+#1 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(63): Connection::jwt('27', 'correo@correo.c...')
+#2 C:\xampp\htdocs\apiSebas\routes\services\post.php(53): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php on line 193
+[26-Aug-2023 02:52:06 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\apiSebas\models\connection.php on line 134 and at least 3 expected in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php:193
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\models\connection.php(134): Firebase\JWT\JWT::encode(Array, 'jshadkdfg46')
+#1 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(63): Connection::jwt('27', 'correo@correo.c...')
+#2 C:\xampp\htdocs\apiSebas\routes\services\post.php(53): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php on line 193
+[26-Aug-2023 02:59:29 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\apiSebas\models\connection.php on line 135 and at least 3 expected in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php:193
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\models\connection.php(135): Firebase\JWT\JWT::encode(Array, 'jshadkdfg46')
+#1 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(63): Connection::jwt('27', 'correo@correo.c...')
+#2 C:\xampp\htdocs\apiSebas\routes\services\post.php(53): PostController::postLogin('instructors', Array, 'instructor')
+#3 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php on line 193
+[26-Aug-2023 03:38:16 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\apiSebas\controllers\post.controller.php on line 71 and at least 3 expected in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php:193
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(71): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\xampp\htdocs\apiSebas\routes\services\post.php(53): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php on line 193
+[26-Aug-2023 03:38:28 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\apiSebas\controllers\post.controller.php on line 71 and at least 3 expected in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php:193
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(71): Firebase\JWT\JWT::encode(Array, 'dfhsdfg34dfchs4...')
+#1 C:\xampp\htdocs\apiSebas\routes\services\post.php(53): PostController::postLogin('instructors', Array, 'instructor')
+#2 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\apiSebas\vendor\firebase\php-jwt\src\JWT.php on line 193
+[26-Aug-2023 04:20:51 Europe/Berlin] PHP Warning:  Undefined array key "password_instructor" in C:\xampp\htdocs\apiSebas\controllers\post.controller.php on line 62
+[26-Aug-2023 05:38:06 Europe/Berlin] PHP Warning:  Undefined array key "token" in C:\xampp\htdocs\apiSebas\routes\services\post.php on line 60
+[26-Aug-2023 05:46:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title_course' in 'field list' in C:\xampp\htdocs\apiSebas\models\post.model.php:32
+Stack trace:
+#0 C:\xampp\htdocs\apiSebas\models\post.model.php(32): PDOStatement->execute()
+#1 C:\xampp\htdocs\apiSebas\controllers\post.controller.php(19): PostModel::postData('instructors', Array)
+#2 C:\xampp\htdocs\apiSebas\routes\services\post.php(71): PostController::postData('instructors', Array)
+#3 C:\xampp\htdocs\apiSebas\routes\routes.php(62): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\apiSebas\controllers\routes.controller.php(12): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\apiSebas\index.php(21): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\apiSebas\models\post.model.php on line 32
